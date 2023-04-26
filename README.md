@@ -1,1 +1,1 @@
-# sample-data
+A collection of RDF files.
