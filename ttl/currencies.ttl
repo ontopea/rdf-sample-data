@@ -1,0 +1,3059 @@
+@prefix code: <http://telegraphis.net/ontology/measurement/code#> .
+@prefix money: <http://telegraphis.net/ontology/money/money#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://telegraphis.net/data/currencies/AED#AED> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AED" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "784" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AE#AE> ;
+    money:isoAlpha "AED" ;
+    money:isoNumeric "784" ;
+    money:minorExponent "2" ;
+    money:minorName "fils"@en ;
+    money:name "United Arab Emirates dirham"@en ;
+    money:shortName "dirham"@en ;
+    money:symbol "د.إ" ;
+    owl:sameAs <http://dbpedia.org/resource/United_Arab_Emirates_dirham> .
+
+<http://telegraphis.net/data/currencies/AFN#AFN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AFN" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "971" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AF#AF> ;
+    money:isoAlpha "AFN" ;
+    money:isoNumeric "971" ;
+    money:minorExponent "2" ;
+    money:minorName "pul"@en ;
+    money:name "Afghan afghani"@en ;
+    money:shortName "afghani"@en ;
+    money:symbol "؋" ;
+    owl:sameAs <http://dbpedia.org/resource/Afghan_afghani> .
+
+<http://telegraphis.net/data/currencies/ALL#ALL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "008" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ALL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AL#AL> ;
+    money:isoAlpha "ALL" ;
+    money:isoNumeric "008" ;
+    money:minorExponent "2" ;
+    money:minorName "qindarkë"@en ;
+    money:name "Albanian lek"@en ;
+    money:shortName "lek"@en ;
+    money:symbol "L" ;
+    owl:sameAs <http://dbpedia.org/resource/Albanian_lek> .
+
+<http://telegraphis.net/data/currencies/AMD#AMD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "051" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AMD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AM#AM> ;
+    money:isoAlpha "AMD" ;
+    money:isoNumeric "051" ;
+    money:minorExponent "0" ;
+    money:minorName "luma"@en ;
+    money:name "Armenian dram"@en ;
+    money:shortName "dram"@en ;
+    money:symbol "դր." ;
+    owl:sameAs <http://dbpedia.org/resource/Armenian_dram> .
+
+<http://telegraphis.net/data/currencies/ANG#ANG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "532" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ANG" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AN#AN> ;
+    money:isoAlpha "ANG" ;
+    money:isoNumeric "532" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Netherlands Antillean guilder"@en ;
+    money:shortName "guilder"@en ;
+    money:symbol "ƒ" ;
+    owl:sameAs <http://dbpedia.org/resource/Netherlands_Antillean_guilder> .
+
+<http://telegraphis.net/data/currencies/AOA#AOA> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "973" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AOA" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AO#AO> ;
+    money:isoAlpha "AOA" ;
+    money:isoNumeric "973" ;
+    money:minorExponent "1" ;
+    money:minorName "cêntimo"@en ;
+    money:name "Angolan kwanza"@en ;
+    money:shortName "kwanza"@en ;
+    money:symbol "Kw" ;
+    owl:sameAs <http://dbpedia.org/resource/Angolan_kwanza> .
+
+<http://telegraphis.net/data/currencies/ARS#ARS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ARS" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "032" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AR#AR> ;
+    money:isoAlpha "ARS" ;
+    money:isoNumeric "032" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Argentine peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Argentine_peso> .
+
+<http://telegraphis.net/data/currencies/AUD#AUD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "036" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AUD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AU#AU>,
+        <http://telegraphis.net/data/countries/CC#CC>,
+        <http://telegraphis.net/data/countries/CX#CX>,
+        <http://telegraphis.net/data/countries/HM#HM>,
+        <http://telegraphis.net/data/countries/KI#KI>,
+        <http://telegraphis.net/data/countries/NF#NF>,
+        <http://telegraphis.net/data/countries/NR#NR>,
+        <http://telegraphis.net/data/countries/TV#TV> ;
+    money:isoAlpha "AUD" ;
+    money:isoNumeric "036" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "c" ;
+    money:name "Australian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "A$" ;
+    owl:sameAs <http://dbpedia.org/resource/Australian_dollar> .
+
+<http://telegraphis.net/data/currencies/AWG#AWG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AWG" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "533" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AW#AW> ;
+    money:isoAlpha "AWG" ;
+    money:isoNumeric "533" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Aruban guilder"@en ;
+    money:shortName "guilder"@en ;
+    money:symbol "Afl." ;
+    owl:sameAs <http://dbpedia.org/resource/Aruban_florin> .
+
+<http://telegraphis.net/data/currencies/AZN#AZN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "944" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "AZN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AZ#AZ> ;
+    money:isoAlpha "AZN" ;
+    money:isoNumeric "944" ;
+    money:minorExponent "2" ;
+    money:minorName "qəpik"@en ;
+    money:name "Azerbaijani manat"@en ;
+    money:shortName "manat"@en ;
+    money:symbol "m" ;
+    owl:sameAs <http://dbpedia.org/resource/Azerbaijani_manat> .
+
+<http://telegraphis.net/data/currencies/BAM#BAM> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "977" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BAM" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BA#BA> ;
+    money:isoAlpha "BAM" ;
+    money:isoNumeric "977" ;
+    money:minorExponent "2" ;
+    money:minorName "fening"@en ;
+    money:name "Bosnia and Herzegovina konvertibilna marka"@en ;
+    money:shortName "konvertibilna marka"@en ;
+    money:symbol "KM" ;
+    owl:sameAs <http://dbpedia.org/resource/Bosnia_and_Herzegovina_konvertibilna_marka> .
+
+<http://telegraphis.net/data/currencies/BBD#BBD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "052" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BBD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BB#BB> ;
+    money:isoAlpha "BBD" ;
+    money:isoNumeric "052" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Barbados dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "Bds$" ;
+    owl:sameAs <http://dbpedia.org/resource/Barbadian_dollar> .
+
+<http://telegraphis.net/data/currencies/BDT#BDT> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "050" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BDT" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BD#BD> ;
+    money:isoAlpha "BDT" ;
+    money:isoNumeric "050" ;
+    money:minorExponent "2" ;
+    money:minorName "poisha"@en ;
+    money:name "Bangladeshi taka"@en ;
+    money:shortName "taka"@en ;
+    money:symbol "৳" ;
+    owl:sameAs <http://dbpedia.org/resource/Bangladeshi_taka> .
+
+<http://telegraphis.net/data/currencies/BGN#BGN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "975" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BGN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BG#BG> ;
+    money:isoAlpha "BGN" ;
+    money:isoNumeric "975" ;
+    money:minorExponent "2" ;
+    money:minorName "stotinka"@en ;
+    money:name "Bulgarian lev"@en ;
+    money:shortName "lev"@en ;
+    money:symbol "лв" ;
+    owl:sameAs <http://dbpedia.org/resource/Bulgarian_lev> .
+
+<http://telegraphis.net/data/currencies/BHD#BHD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BHD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "048" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BH#BH> ;
+    money:isoAlpha "BHD" ;
+    money:isoNumeric "048" ;
+    money:minorExponent "3" ;
+    money:minorName "fils"@en ;
+    money:name "Bahraini dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol ".د.ب" ;
+    owl:sameAs <http://dbpedia.org/resource/Bahraini_dinar> .
+
+<http://telegraphis.net/data/currencies/BIF#BIF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "108" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BIF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BI#BI> ;
+    money:isoAlpha "BIF" ;
+    money:isoNumeric "108" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "Burundian franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "FBu" ;
+    owl:sameAs <http://dbpedia.org/resource/Burundian_franc> .
+
+<http://telegraphis.net/data/currencies/BMD#BMD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "060" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BMD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BM#BM> ;
+    money:isoAlpha "BMD" ;
+    money:isoNumeric "060" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Bermudian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "BD$" ;
+    owl:sameAs <http://dbpedia.org/resource/Bermudian_dollar> .
+
+<http://telegraphis.net/data/currencies/BND#BND> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BND" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "096" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BN#BN>,
+        <http://telegraphis.net/data/countries/SG#SG> ;
+    money:isoAlpha "BND" ;
+    money:isoNumeric "096" ;
+    money:minorExponent "2" ;
+    money:minorName "sen"@en ;
+    money:name "Brunei dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "B$" ;
+    owl:sameAs <http://dbpedia.org/resource/Brunei_dollar> .
+
+<http://telegraphis.net/data/currencies/BOB#BOB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BOB" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "068" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BO#BO> ;
+    money:isoAlpha "BOB" ;
+    money:isoNumeric "068" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Bolivian boliviano"@en ;
+    money:shortName "boliviano"@en ;
+    money:symbol "Bs." ;
+    owl:sameAs <http://dbpedia.org/resource/Bolivian_boliviano> .
+
+<http://telegraphis.net/data/currencies/BOV#BOV> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "984" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BOV" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BO#BO> ;
+    money:isoAlpha "BOV" ;
+    money:isoNumeric "984" ;
+    money:minorExponent "2" ;
+    money:name "Bolivian Mvdol"@en ;
+    money:shortName "mvdol"@en .
+
+<http://telegraphis.net/data/currencies/BRL#BRL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BRL" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "986" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BR#BR> ;
+    money:isoAlpha "BRL" ;
+    money:isoNumeric "986" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Brazilian real"@en ;
+    money:shortName "real"@en ;
+    money:symbol "R$" ;
+    owl:sameAs <http://dbpedia.org/resource/Brazilian_real> .
+
+<http://telegraphis.net/data/currencies/BSD#BSD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BSD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "044" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BS#BS> ;
+    money:isoAlpha "BSD" ;
+    money:isoNumeric "044" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Bahamian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "B$" ;
+    owl:sameAs <http://dbpedia.org/resource/Bahamian_dollar> .
+
+<http://telegraphis.net/data/currencies/BTN#BTN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "064" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BTN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BT#BT> ;
+    money:isoAlpha "BTN" ;
+    money:isoNumeric "064" ;
+    money:minorExponent "2" ;
+    money:minorName "chhertum"@en ;
+    money:minorSymbol "Ch." ;
+    money:name "Bhutanese ngultrum"@en ;
+    money:shortName "ngultrum"@en ;
+    money:symbol "Nu." ;
+    owl:sameAs <http://dbpedia.org/resource/Bhutanese_ngultrum> .
+
+<http://telegraphis.net/data/currencies/BWP#BWP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "072" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BWP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BW#BW> ;
+    money:isoAlpha "BWP" ;
+    money:isoNumeric "072" ;
+    money:minorExponent "2" ;
+    money:minorName "thebe"@en ;
+    money:name "Botswana pula"@en ;
+    money:shortName "pula"@en ;
+    money:symbol "P" ;
+    owl:sameAs <http://dbpedia.org/resource/Botswana_pula> .
+
+<http://telegraphis.net/data/currencies/BYR#BYR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "974" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BYR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BY#BY> ;
+    money:isoAlpha "BYR" ;
+    money:isoNumeric "974" ;
+    money:minorExponent "0" ;
+    money:minorName "kapeyka"@en ;
+    money:name "Belarusian ruble"@en ;
+    money:shortName "ruble"@en ;
+    money:symbol "Br" ;
+    owl:sameAs <http://dbpedia.org/resource/Belarusian_ruble> .
+
+<http://telegraphis.net/data/currencies/BZD#BZD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "BZD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "084" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BZ#BZ> ;
+    money:isoAlpha "BZD" ;
+    money:isoNumeric "084" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Belize dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "BZ$" ;
+    owl:sameAs <http://dbpedia.org/resource/Belize_dollar> .
+
+<http://telegraphis.net/data/currencies/CAD#CAD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CAD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "124" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CA#CA> ;
+    money:isoAlpha "CAD" ;
+    money:isoNumeric "124" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Canadian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "C$" ;
+    owl:sameAs <http://dbpedia.org/resource/Canadian_dollar> .
+
+<http://telegraphis.net/data/currencies/CDF#CDF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CDF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "976" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CD#CD> ;
+    money:isoAlpha "CDF" ;
+    money:isoNumeric "976" ;
+    money:minorExponent "2" ;
+    money:minorName "centime"@en ;
+    money:name "Congolese franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "F" ;
+    owl:sameAs <http://dbpedia.org/resource/Congolese_franc> .
+
+<http://telegraphis.net/data/currencies/CHE#CHE> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CHE" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "947" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CH#CH> ;
+    money:isoAlpha "CHE" ;
+    money:isoNumeric "947" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "WIR euro"@en ;
+    money:shortName "euro"@en .
+
+<http://telegraphis.net/data/currencies/CHF#CHF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "756" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CHF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CH#CH>,
+        <http://telegraphis.net/data/countries/LI#LI> ;
+    money:isoAlpha "CHF" ;
+    money:isoNumeric "756" ;
+    money:minorExponent "2" ;
+    money:minorName "centime"@en ;
+    money:name "Swiss franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "Fr." ;
+    owl:sameAs <http://dbpedia.org/resource/Swiss_franc> .
+
+<http://telegraphis.net/data/currencies/CHW#CHW> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CHW" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "948" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CH#CH> ;
+    money:isoAlpha "CHW" ;
+    money:isoNumeric "948" ;
+    money:minorExponent "2" ;
+    money:minorName "centime"@en ;
+    money:name "WIR franc"@en ;
+    money:shortName "franc"@en .
+
+<http://telegraphis.net/data/currencies/CLF#CLF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CLF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "990" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CL#CL> ;
+    money:isoAlpha "CLF" ;
+    money:isoNumeric "990" ;
+    money:minorExponent "0" ;
+    money:name "Chilean Unidad de Fomento"@en ;
+    money:shortName "UF"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Unidad_de_Fomento> .
+
+<http://telegraphis.net/data/currencies/CLP#CLP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "152" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CLP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CL#CL> ;
+    money:isoAlpha "CLP" ;
+    money:isoNumeric "152" ;
+    money:minorExponent "0" ;
+    money:minorName "centavo"@en ;
+    money:name "Chilean peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Chilean_peso> .
+
+<http://telegraphis.net/data/currencies/CNY#CNY> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "156" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CNY" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CN#CN> ;
+    money:isoAlpha "CNY" ;
+    money:isoNumeric "156" ;
+    money:minorExponent "1" ;
+    money:minorName "fen"@en ;
+    money:name "Chinese renminbi"@en ;
+    money:shortName "yuan"@en ;
+    money:symbol "¥" ;
+    owl:sameAs <http://dbpedia.org/resource/Renminbi> .
+
+<http://telegraphis.net/data/currencies/COP#COP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "170" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "COP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CO#CO> ;
+    money:isoAlpha "COP" ;
+    money:isoNumeric "170" ;
+    money:minorExponent "0" ;
+    money:minorName "centavo"@en ;
+    money:name "Colombian peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Colombian_peso> .
+
+<http://telegraphis.net/data/currencies/COU#COU> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "970" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "COU" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CO#CO> ;
+    money:isoAlpha "COU" ;
+    money:isoNumeric "970" ;
+    money:minorExponent "2" ;
+    money:name "Columbian Unidad de Valor Real"@en ;
+    money:shortName "UVR"@en .
+
+<http://telegraphis.net/data/currencies/CRC#CRC> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "188" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CRC" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CR#CR> ;
+    money:isoAlpha "CRC" ;
+    money:isoNumeric "188" ;
+    money:minorExponent "2" ;
+    money:minorName "céntimo"@en ;
+    money:name "Costa Rican colon"@en ;
+    money:shortName "colon"@en ;
+    money:symbol "₡" ;
+    owl:sameAs <http://dbpedia.org/resource/Costa_Rican_col%C3%B3n> .
+
+<http://telegraphis.net/data/currencies/CUC#CUC> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "931" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CUC" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CU#CU> ;
+    money:isoAlpha "CUC" ;
+    money:isoNumeric "931" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo convertible"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Cuban convertible peso"@en ;
+    money:shortName "convertible peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Cuban_convertible_peso> .
+
+<http://telegraphis.net/data/currencies/CUP#CUP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "192" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CUP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CU#CU> ;
+    money:isoAlpha "CUP" ;
+    money:isoNumeric "192" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Cuban peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Cuban_peso> .
+
+<http://telegraphis.net/data/currencies/CVE#CVE> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CVE" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "132" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CV#CV> ;
+    money:isoAlpha "CVE" ;
+    money:isoNumeric "132" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Cape Verde escudo"@en ;
+    money:shortName "escudo"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Cape_Verdean_escudo> .
+
+<http://telegraphis.net/data/currencies/CZK#CZK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "203" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "CZK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CZ#CZ> ;
+    money:isoAlpha "CZK" ;
+    money:isoNumeric "203" ;
+    money:minorExponent "2" ;
+    money:minorName "haléř"@en ;
+    money:minorSymbol "h" ;
+    money:name "Czech koruna"@en ;
+    money:shortName "koruna"@en ;
+    money:symbol "Kč" ;
+    owl:sameAs <http://dbpedia.org/resource/Czech_koruna> .
+
+<http://telegraphis.net/data/currencies/DJF#DJF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "262" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "DJF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/DJ#DJ> ;
+    money:isoAlpha "DJF" ;
+    money:isoNumeric "262" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "Djiboutian franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "Fdj" ;
+    owl:sameAs <http://dbpedia.org/resource/Djiboutian_franc> .
+
+<http://telegraphis.net/data/currencies/DKK#DKK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "DKK" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "208" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/DK#DK>,
+        <http://telegraphis.net/data/countries/FO#FO>,
+        <http://telegraphis.net/data/countries/GL#GL> ;
+    money:isoAlpha "DKK" ;
+    money:isoNumeric "208" ;
+    money:minorExponent "2" ;
+    money:minorName "øre"@en ;
+    money:name "Danish krone"@en ;
+    money:shortName "krone"@en ;
+    money:symbol "kr" ;
+    owl:sameAs <http://dbpedia.org/resource/Danish_krone> .
+
+<http://telegraphis.net/data/currencies/DOP#DOP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "DOP" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "214" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/DO#DO> ;
+    money:isoAlpha "DOP" ;
+    money:isoNumeric "214" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Dominican peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "RD$" ;
+    owl:sameAs <http://dbpedia.org/resource/Dominican_peso> .
+
+<http://telegraphis.net/data/currencies/DZD#DZD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "DZD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "012" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/DZ#DZ> ;
+    money:isoAlpha "DZD" ;
+    money:isoNumeric "012" ;
+    money:minorExponent "2" ;
+    money:minorName "santeem"@en ;
+    money:name "Algerian dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "د.ج" ;
+    owl:sameAs <http://dbpedia.org/resource/Algerian_dinar> .
+
+<http://telegraphis.net/data/currencies/EEK#EEK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "EEK" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "233" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/EE#EE> ;
+    money:isoAlpha "EEK" ;
+    money:isoNumeric "233" ;
+    money:minorExponent "2" ;
+    money:minorName "sent"@en ;
+    money:name "Estonian kroon"@en ;
+    money:shortName "kroon"@en ;
+    money:symbol "KR" ;
+    owl:sameAs <http://dbpedia.org/resource/Estonian_kroon> .
+
+<http://telegraphis.net/data/currencies/EGP#EGP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "818" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "EGP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/EG#EG> ;
+    money:isoAlpha "EGP" ;
+    money:isoNumeric "818" ;
+    money:minorExponent "2" ;
+    money:minorName "piastre"@en ;
+    money:minorSymbol "Pt." ;
+    money:name "Egyptian pound"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "£" ;
+    owl:sameAs <http://dbpedia.org/resource/Egyptian_pound> .
+
+<http://telegraphis.net/data/currencies/ERN#ERN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "232" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ERN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ER#ER> ;
+    money:isoAlpha "ERN" ;
+    money:isoNumeric "232" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Eritrean nakfa"@en ;
+    money:shortName "nakfa"@en ;
+    money:symbol "Nfk" ;
+    owl:sameAs <http://dbpedia.org/resource/Eritrean_nakfa> .
+
+<http://telegraphis.net/data/currencies/ETB#ETB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ETB" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "230" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ET#ET> ;
+    money:isoAlpha "ETB" ;
+    money:isoNumeric "230" ;
+    money:minorExponent "2" ;
+    money:minorName "santim"@en ;
+    money:name "Ethiopian birr"@en ;
+    money:shortName "birr"@en ;
+    money:symbol "Br" ;
+    owl:sameAs <http://dbpedia.org/resource/Ethiopian_birr> .
+
+<http://telegraphis.net/data/currencies/EUR#EUR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "EUR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "978" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AD#AD>,
+        <http://telegraphis.net/data/countries/AT#AT>,
+        <http://telegraphis.net/data/countries/BE#BE>,
+        <http://telegraphis.net/data/countries/CY#CY>,
+        <http://telegraphis.net/data/countries/DE#DE>,
+        <http://telegraphis.net/data/countries/ES#ES>,
+        <http://telegraphis.net/data/countries/FI#FI>,
+        <http://telegraphis.net/data/countries/FR#FR>,
+        <http://telegraphis.net/data/countries/GR#GR>,
+        <http://telegraphis.net/data/countries/IE#IE>,
+        <http://telegraphis.net/data/countries/IT#IT>,
+        <http://telegraphis.net/data/countries/LU#LU>,
+        <http://telegraphis.net/data/countries/MC#MC>,
+        <http://telegraphis.net/data/countries/ME#ME>,
+        <http://telegraphis.net/data/countries/MT#MT>,
+        <http://telegraphis.net/data/countries/NL#NL>,
+        <http://telegraphis.net/data/countries/PT#PT>,
+        <http://telegraphis.net/data/countries/SI#SI>,
+        <http://telegraphis.net/data/countries/SK#SK>,
+        <http://telegraphis.net/data/countries/SM#SM>,
+        <http://telegraphis.net/data/countries/VA#VA> ;
+    money:isoAlpha "EUR" ;
+    money:isoNumeric "978" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Euro"@en ;
+    money:shortName "euro"@en ;
+    money:symbol "€" ;
+    owl:sameAs <http://dbpedia.org/resource/Euro> .
+
+<http://telegraphis.net/data/currencies/FJD#FJD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "FJD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "242" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/FJ#FJ> ;
+    money:isoAlpha "FJD" ;
+    money:isoNumeric "242" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Fiji dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "FJ$" ;
+    owl:sameAs <http://dbpedia.org/resource/Fijian_dollar> .
+
+<http://telegraphis.net/data/currencies/FKP#FKP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "238" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "FKP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/FK#FK> ;
+    money:isoAlpha "FKP" ;
+    money:isoNumeric "238" ;
+    money:minorExponent "2" ;
+    money:minorName "penny"@en ;
+    money:minorSymbol "p" ;
+    money:name "Falkland Islands pound"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "£" ;
+    owl:sameAs <http://dbpedia.org/resource/Falkland_Islands_pound> .
+
+<http://telegraphis.net/data/currencies/GBP#GBP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GBP" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "826" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GB#GB>,
+        <http://telegraphis.net/data/countries/GG#GG>,
+        <http://telegraphis.net/data/countries/GS#GS>,
+        <http://telegraphis.net/data/countries/IM#IM>,
+        <http://telegraphis.net/data/countries/IO#IO>,
+        <http://telegraphis.net/data/countries/JE#JE> ;
+    money:isoAlpha "GBP" ;
+    money:isoNumeric "826" ;
+    money:minorExponent "2" ;
+    money:minorName "penny"@en ;
+    money:minorSymbol "p" ;
+    money:name "British pound sterling"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "£" ;
+    owl:sameAs <http://dbpedia.org/resource/Pound_sterling> .
+
+<http://telegraphis.net/data/currencies/GEL#GEL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GEL" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "981" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GE#GE> ;
+    money:isoAlpha "GEL" ;
+    money:isoNumeric "981" ;
+    money:minorExponent "2" ;
+    money:minorName "tetri"@en ;
+    money:name "Georgian lari"@en ;
+    money:shortName "lari"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Georgian_lari> .
+
+<http://telegraphis.net/data/currencies/GHS#GHS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GHS" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "936" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GH#GH> ;
+    money:isoAlpha "GHS" ;
+    money:isoNumeric "936" ;
+    money:minorExponent "2" ;
+    money:minorName "pesewa"@en ;
+    money:name "Ghanaian cedi"@en ;
+    money:shortName "cedi"@en ;
+    money:symbol "₵" ;
+    owl:sameAs <http://dbpedia.org/resource/Ghanaian_cedi> .
+
+<http://telegraphis.net/data/currencies/GIP#GIP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "292" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GIP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GI#GI> ;
+    money:isoAlpha "GIP" ;
+    money:isoNumeric "292" ;
+    money:minorExponent "2" ;
+    money:minorName "penny"@en ;
+    money:minorSymbol "p" ;
+    money:name "Gibraltar pound"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "£" ;
+    owl:sameAs <http://dbpedia.org/resource/Gibraltar_pound> .
+
+<http://telegraphis.net/data/currencies/GMD#GMD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "270" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GMD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GM#GM> ;
+    money:isoAlpha "GMD" ;
+    money:isoNumeric "270" ;
+    money:minorExponent "2" ;
+    money:minorName "butut"@en ;
+    money:name "Gambian dalasi"@en ;
+    money:shortName "dalasi"@en ;
+    money:symbol "D" ;
+    owl:sameAs <http://dbpedia.org/resource/Gambian_dalasi> .
+
+<http://telegraphis.net/data/currencies/GNF#GNF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "324" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GNF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GN#GN> ;
+    money:isoAlpha "GNF" ;
+    money:isoNumeric "324" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "Guinean franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "FG" ;
+    owl:sameAs <http://dbpedia.org/resource/Guinean_franc> .
+
+<http://telegraphis.net/data/currencies/GTQ#GTQ> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GTQ" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "320" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GT#GT> ;
+    money:isoAlpha "GTQ" ;
+    money:isoNumeric "320" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Guatemalan quetzal"@en ;
+    money:shortName "quetzal"@en ;
+    money:symbol "Q" ;
+    owl:sameAs <http://dbpedia.org/resource/Guatemalan_quetzal> .
+
+<http://telegraphis.net/data/currencies/GYD#GYD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "328" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "GYD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/GY#GY> ;
+    money:isoAlpha "GYD" ;
+    money:isoNumeric "328" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Guyanese dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "G$" ;
+    owl:sameAs <http://dbpedia.org/resource/Guyanese_dollar> .
+
+<http://telegraphis.net/data/currencies/HKD#HKD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "HKD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "344" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/HK#HK> ;
+    money:isoAlpha "HKD" ;
+    money:isoNumeric "344" ;
+    money:minorExponent "1" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Hong Kong dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "HK$" ;
+    owl:sameAs <http://dbpedia.org/resource/Hong_Kong_dollar> .
+
+<http://telegraphis.net/data/currencies/HNL#HNL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "340" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "HNL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/HN#HN> ;
+    money:isoAlpha "HNL" ;
+    money:isoNumeric "340" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Honduran lempira"@en ;
+    money:shortName "lempira"@en ;
+    money:symbol "L" ;
+    owl:sameAs <http://dbpedia.org/resource/Honduran_lempira> .
+
+<http://telegraphis.net/data/currencies/HRK#HRK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "191" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "HRK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/HR#HR> ;
+    money:isoAlpha "HRK" ;
+    money:isoNumeric "191" ;
+    money:minorExponent "2" ;
+    money:minorName "lipa"@en ;
+    money:minorSymbol "lp" ;
+    money:name "Croatian kuna"@en ;
+    money:shortName "kuna"@en ;
+    money:symbol "kn" ;
+    owl:sameAs <http://dbpedia.org/resource/Croatian_kuna> .
+
+<http://telegraphis.net/data/currencies/HTG#HTG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "332" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "HTG" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/HT#HT> ;
+    money:isoAlpha "HTG" ;
+    money:isoNumeric "332" ;
+    money:minorExponent "2" ;
+    money:minorName "centime"@en ;
+    money:name "Haitian gourde"@en ;
+    money:shortName "gourde"@en ;
+    money:symbol "G" ;
+    owl:sameAs <http://dbpedia.org/resource/Haitian_gourde> .
+
+<http://telegraphis.net/data/currencies/HUF#HUF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "HUF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "348" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/HU#HU> ;
+    money:isoAlpha "HUF" ;
+    money:isoNumeric "348" ;
+    money:minorExponent "0" ;
+    money:minorName "fillér"@en ;
+    money:name "Hungarian forint"@en ;
+    money:shortName "forint"@en ;
+    money:symbol "Ft" ;
+    owl:sameAs <http://dbpedia.org/resource/Hungarian_forint> .
+
+<http://telegraphis.net/data/currencies/IDR#IDR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "IDR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "360" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ID#ID> ;
+    money:isoAlpha "IDR" ;
+    money:isoNumeric "360" ;
+    money:minorExponent "0" ;
+    money:minorName "sen"@en ;
+    money:name "Indonesian rupiah"@en ;
+    money:shortName "rupiah"@en ;
+    money:symbol "Rp" ;
+    owl:sameAs <http://dbpedia.org/resource/Indonesian_rupiah> .
+
+<http://telegraphis.net/data/currencies/ILS#ILS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "376" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ILS" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/IL#IL> ;
+    money:isoAlpha "ILS" ;
+    money:isoNumeric "376" ;
+    money:minorExponent "2" ;
+    money:minorName "agora"@en ;
+    money:name "Israeli new sheqel"@en ;
+    money:shortName "new sheqel"@en ;
+    money:symbol "₪" ;
+    owl:sameAs <http://dbpedia.org/resource/Israeli_new_sheqel> .
+
+<http://telegraphis.net/data/currencies/INR#INR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "356" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "INR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BT#BT>,
+        <http://telegraphis.net/data/countries/IN#IN> ;
+    money:isoAlpha "INR" ;
+    money:isoNumeric "356" ;
+    money:minorExponent "2" ;
+    money:minorName "paisa"@en ;
+    money:name "Indian rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "₨" ;
+    owl:sameAs <http://dbpedia.org/resource/Indian_rupee> .
+
+<http://telegraphis.net/data/currencies/IQD#IQD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "IQD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "368" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/IQ#IQ> ;
+    money:isoAlpha "IQD" ;
+    money:isoNumeric "368" ;
+    money:minorExponent "0" ;
+    money:minorName "fils"@en ;
+    money:name "Iraqi dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "ع.د" ;
+    owl:sameAs <http://dbpedia.org/resource/Iraqi_dinar> .
+
+<http://telegraphis.net/data/currencies/IRR#IRR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "IRR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "364" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/IR#IR> ;
+    money:isoAlpha "IRR" ;
+    money:isoNumeric "364" ;
+    money:minorExponent "0" ;
+    money:minorName "dinar"@en ;
+    money:name "Iranian rial"@en ;
+    money:shortName "rial"@en ;
+    money:symbol "﷼" ;
+    owl:sameAs <http://dbpedia.org/resource/Iranian_rial> .
+
+<http://telegraphis.net/data/currencies/ISK#ISK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ISK" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "352" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/IS#IS> ;
+    money:isoAlpha "ISK" ;
+    money:isoNumeric "352" ;
+    money:minorExponent "0" ;
+    money:minorName "eyrir"@en ;
+    money:name "Icelandic króna"@en ;
+    money:shortName "króna"@en ;
+    money:symbol "kr" ;
+    owl:sameAs <http://dbpedia.org/resource/Icelandic_kr%C3%B3na> .
+
+<http://telegraphis.net/data/currencies/JMD#JMD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "JMD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "388" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/JM#JM> ;
+    money:isoAlpha "JMD" ;
+    money:isoNumeric "388" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Jamaican dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "J$" ;
+    owl:sameAs <http://dbpedia.org/resource/Jamaican_dollar> .
+
+<http://telegraphis.net/data/currencies/JOD#JOD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "400" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "JOD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/JO#JO> ;
+    money:isoAlpha "JOD" ;
+    money:isoNumeric "400" ;
+    money:minorExponent "3" ;
+    money:minorName "fils"@en ;
+    money:name "Jordanian dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "JD" ;
+    owl:sameAs <http://dbpedia.org/resource/Jordanian_dinar> .
+
+<http://telegraphis.net/data/currencies/JPY#JPY> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "392" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "JPY" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/JP#JP> ;
+    money:isoAlpha "JPY" ;
+    money:isoNumeric "392" ;
+    money:minorExponent "0" ;
+    money:minorName "sen"@en ;
+    money:name "Japanese yen"@en ;
+    money:shortName "yen"@en ;
+    money:symbol "¥" ;
+    owl:sameAs <http://dbpedia.org/resource/Japanese_yen> .
+
+<http://telegraphis.net/data/currencies/KES#KES> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "404" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KES" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KE#KE> ;
+    money:isoAlpha "KES" ;
+    money:isoNumeric "404" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Kenyan shilling"@en ;
+    money:shortName "shilling"@en ;
+    money:symbol "KSh" ;
+    owl:sameAs <http://dbpedia.org/resource/Kenyan_shilling> .
+
+<http://telegraphis.net/data/currencies/KGS#KGS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "417" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KGS" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KG#KG> ;
+    money:isoAlpha "KGS" ;
+    money:isoNumeric "417" ;
+    money:minorExponent "2" ;
+    money:minorName "tyiyn"@en ;
+    money:name "Kyrgyzstani som"@en ;
+    money:shortName "som"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Kyrgyzstani_som> .
+
+<http://telegraphis.net/data/currencies/KHR#KHR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "116" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KHR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KH#KH> ;
+    money:isoAlpha "KHR" ;
+    money:isoNumeric "116" ;
+    money:minorExponent "0" ;
+    money:minorName "sen"@en ;
+    money:name "Cambodian riel"@en ;
+    money:shortName "riel"@en ;
+    money:symbol "៛" ;
+    owl:sameAs <http://dbpedia.org/resource/Cambodian_riel> .
+
+<http://telegraphis.net/data/currencies/KMF#KMF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KMF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "174" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KM#KM> ;
+    money:isoAlpha "KMF" ;
+    money:isoNumeric "174" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "Comoro franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "CF" ;
+    owl:sameAs <http://dbpedia.org/resource/Comorian_franc> .
+
+<http://telegraphis.net/data/currencies/KPW#KPW> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KPW" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "408" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KP#KP> ;
+    money:isoAlpha "KPW" ;
+    money:isoNumeric "408" ;
+    money:minorExponent "0" ;
+    money:minorName "chon"@en ;
+    money:name "North Korean won"@en ;
+    money:shortName "won"@en ;
+    money:symbol "₩" ;
+    owl:sameAs <http://dbpedia.org/resource/North_Korean_won> .
+
+<http://telegraphis.net/data/currencies/KRW#KRW> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KRW" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "410" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KR#KR> ;
+    money:isoAlpha "KRW" ;
+    money:isoNumeric "410" ;
+    money:minorExponent "0" ;
+    money:minorName "jeon"@en ;
+    money:name "South Korean won"@en ;
+    money:shortName "won"@en ;
+    money:symbol "₩" ;
+    owl:sameAs <http://dbpedia.org/resource/South_Korean_won> .
+
+<http://telegraphis.net/data/currencies/KWD#KWD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "414" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KWD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KW#KW> ;
+    money:isoAlpha "KWD" ;
+    money:isoNumeric "414" ;
+    money:minorExponent "3" ;
+    money:minorName "fils"@en ;
+    money:name "Kuwaiti dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "د.ك" ;
+    owl:sameAs <http://dbpedia.org/resource/Kuwaiti_dinar> .
+
+<http://telegraphis.net/data/currencies/KYD#KYD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "136" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KYD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KY#KY> ;
+    money:isoAlpha "KYD" ;
+    money:isoNumeric "136" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Cayman Islands dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "CI$" ;
+    owl:sameAs <http://dbpedia.org/resource/Cayman_Islands_dollar> .
+
+<http://telegraphis.net/data/currencies/KZT#KZT> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "KZT" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "398" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/KZ#KZ> ;
+    money:isoAlpha "KZT" ;
+    money:isoNumeric "398" ;
+    money:minorExponent "2" ;
+    money:minorName "tïin"@en ;
+    money:name "Kazakhstani tenge"@en ;
+    money:shortName "tenge"@en ;
+    money:symbol "₸" ;
+    owl:sameAs <http://dbpedia.org/resource/Kazakhstani_tenge> .
+
+<http://telegraphis.net/data/currencies/LAK#LAK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "418" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LAK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LA#LA> ;
+    money:isoAlpha "LAK" ;
+    money:isoNumeric "418" ;
+    money:minorExponent "0" ;
+    money:minorName "att"@en ;
+    money:name "Lao kip"@en ;
+    money:shortName "kip"@en ;
+    money:symbol "₭" ;
+    owl:sameAs <http://dbpedia.org/resource/Lao_kip> .
+
+<http://telegraphis.net/data/currencies/LBP#LBP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "422" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LBP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LB#LB> ;
+    money:isoAlpha "LBP" ;
+    money:isoNumeric "422" ;
+    money:minorExponent "0" ;
+    money:minorName "piastre"@en ;
+    money:name "Lebanese pound"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "ل.ل" ;
+    owl:sameAs <http://dbpedia.org/resource/Lebanese_pound> .
+
+<http://telegraphis.net/data/currencies/LKR#LKR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LKR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "144" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LK#LK> ;
+    money:isoAlpha "LKR" ;
+    money:isoNumeric "144" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Sri Lankan rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "₨" ;
+    owl:sameAs <http://dbpedia.org/resource/Sri_Lankan_rupee> .
+
+<http://telegraphis.net/data/currencies/LRD#LRD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "430" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LRD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LR#LR> ;
+    money:isoAlpha "LRD" ;
+    money:isoNumeric "430" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Liberian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "L$" ;
+    owl:sameAs <http://dbpedia.org/resource/Liberian_dollar> .
+
+<http://telegraphis.net/data/currencies/LSL#LSL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "426" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LSL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LS#LS> ;
+    money:isoAlpha "LSL" ;
+    money:isoNumeric "426" ;
+    money:minorExponent "2" ;
+    money:minorName "sente"@en ;
+    money:name "Lesotho loti"@en ;
+    money:shortName "loti"@en ;
+    money:symbol "L" ;
+    owl:sameAs <http://dbpedia.org/resource/Lesotho_loti> .
+
+<http://telegraphis.net/data/currencies/LTL#LTL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "440" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LTL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LT#LT> ;
+    money:isoAlpha "LTL" ;
+    money:isoNumeric "440" ;
+    money:minorExponent "2" ;
+    money:minorName "centas"@en ;
+    money:name "Lithuanian litas"@en ;
+    money:shortName "litas"@en ;
+    money:symbol "Lt" ;
+    owl:sameAs <http://dbpedia.org/resource/Lithuanian_litas> .
+
+<http://telegraphis.net/data/currencies/LVL#LVL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "428" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LVL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LV#LV> ;
+    money:isoAlpha "LVL" ;
+    money:isoNumeric "428" ;
+    money:minorExponent "2" ;
+    money:minorName "santīms"@en ;
+    money:name "Latvian lats"@en ;
+    money:shortName "lats"@en ;
+    money:symbol "Ls" ;
+    owl:sameAs <http://dbpedia.org/resource/Latvian_lats> .
+
+<http://telegraphis.net/data/currencies/LYD#LYD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "434" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "LYD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/LY#LY> ;
+    money:isoAlpha "LYD" ;
+    money:isoNumeric "434" ;
+    money:minorExponent "3" ;
+    money:minorName "dirham"@en ;
+    money:name "Libyan dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "LD" ;
+    owl:sameAs <http://dbpedia.org/resource/Libyan_dinar> .
+
+<http://telegraphis.net/data/currencies/MAD#MAD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "504" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MAD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/EH#EH>,
+        <http://telegraphis.net/data/countries/MA#MA> ;
+    money:isoAlpha "MAD" ;
+    money:isoNumeric "504" ;
+    money:minorExponent "2" ;
+    money:minorName "santim"@en ;
+    money:name "Moroccan dirham"@en ;
+    money:shortName "dirham"@en ;
+    money:symbol "د.م." ;
+    owl:sameAs <http://dbpedia.org/resource/Moroccan_dirham> .
+
+<http://telegraphis.net/data/currencies/MDL#MDL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MDL" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "498" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MD#MD> ;
+    money:isoAlpha "MDL" ;
+    money:isoNumeric "498" ;
+    money:minorExponent "2" ;
+    money:minorName "ban"@en ;
+    money:name "Moldovan leu"@en ;
+    money:shortName "leu"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Moldovan_leu> .
+
+<http://telegraphis.net/data/currencies/MGA#MGA> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "969" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MGA" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MG#MG> ;
+    money:isoAlpha "MGA" ;
+    money:isoNumeric "969" ;
+    money:minorExponent "0.7" ;
+    money:minorName "iraimbilanja"@en ;
+    money:name "Malagasy ariary"@en ;
+    money:shortName "ariary"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Malagasy_ariary> .
+
+<http://telegraphis.net/data/currencies/MKD#MKD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MKD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "807" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MK#MK> ;
+    money:isoAlpha "MKD" ;
+    money:isoNumeric "807" ;
+    money:minorExponent "2" ;
+    money:minorName "deni"@en ;
+    money:name "Macedonian denar"@en ;
+    money:shortName "denar"@en ;
+    money:symbol "ден" ;
+    owl:sameAs <http://dbpedia.org/resource/Macedonian_denar> .
+
+<http://telegraphis.net/data/currencies/MMK#MMK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "104" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MMK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MM#MM> ;
+    money:isoAlpha "MMK" ;
+    money:isoNumeric "104" ;
+    money:minorExponent "0" ;
+    money:minorName "pya"@en ;
+    money:name "Myanma kyat"@en ;
+    money:shortName "kyat"@en ;
+    money:symbol "K" ;
+    owl:sameAs <http://dbpedia.org/resource/Myanma_kyat> .
+
+<http://telegraphis.net/data/currencies/MNT#MNT> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MNT" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "496" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MN#MN> ;
+    money:isoAlpha "MNT" ;
+    money:isoNumeric "496" ;
+    money:minorExponent "2" ;
+    money:minorName "möngö"@en ;
+    money:name "Mongolian tugrik"@en ;
+    money:shortName "tugrik"@en ;
+    money:symbol "₮" ;
+    owl:sameAs <http://dbpedia.org/resource/Mongolian_t%C3%B6gr%C3%B6g> .
+
+<http://telegraphis.net/data/currencies/MOP#MOP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MOP" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "446" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MO#MO> ;
+    money:isoAlpha "MOP" ;
+    money:isoNumeric "446" ;
+    money:minorExponent "1" ;
+    money:minorName "avo"@en ;
+    money:name "Macanese pataca"@en ;
+    money:shortName "pataca"@en ;
+    money:symbol "MOP$" ;
+    owl:sameAs <http://dbpedia.org/resource/Macanese_pataca> .
+
+<http://telegraphis.net/data/currencies/MRO#MRO> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MRO" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "478" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MR#MR> ;
+    money:isoAlpha "MRO" ;
+    money:isoNumeric "478" ;
+    money:minorExponent "0.7" ;
+    money:minorName "khoum"@en ;
+    money:name "Mauritanian ouguiya"@en ;
+    money:shortName "ouguiya"@en ;
+    money:symbol "UM" ;
+    owl:sameAs <http://dbpedia.org/resource/Mauritanian_ouguiya> .
+
+<http://telegraphis.net/data/currencies/MUR#MUR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MUR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "480" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MU#MU> ;
+    money:isoAlpha "MUR" ;
+    money:isoNumeric "480" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Mauritian rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "R" ;
+    owl:sameAs <http://dbpedia.org/resource/Mauritian_rupee> .
+
+<http://telegraphis.net/data/currencies/MVR#MVR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MVR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "462" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MV#MV> ;
+    money:isoAlpha "MVR" ;
+    money:isoNumeric "462" ;
+    money:minorExponent "2" ;
+    money:minorName "laari"@en ;
+    money:name "Maldivian rufiyaa"@en ;
+    money:shortName "rufiyaa"@en ;
+    money:symbol "Rf" ;
+    owl:sameAs <http://dbpedia.org/resource/Maldivian_rufiyaa> .
+
+<http://telegraphis.net/data/currencies/MWK#MWK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "454" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MWK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MW#MW> ;
+    money:isoAlpha "MWK" ;
+    money:isoNumeric "454" ;
+    money:minorExponent "2" ;
+    money:minorName "tambala"@en ;
+    money:name "Malawian kwacha"@en ;
+    money:shortName "kwacha"@en ;
+    money:symbol "MK" ;
+    owl:sameAs <http://dbpedia.org/resource/Malawian_kwacha> .
+
+<http://telegraphis.net/data/currencies/MXN#MXN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "484" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MXN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MX#MX> ;
+    money:isoAlpha "MXN" ;
+    money:isoNumeric "484" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Mexican peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Mexican_peso> .
+
+<http://telegraphis.net/data/currencies/MXV#MXV> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MXV" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "979" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MX#MX> ;
+    money:isoAlpha "MXV" ;
+    money:isoNumeric "979" ;
+    money:minorExponent "2" ;
+    money:name "Mexican Unidad de Inversion"@en ;
+    money:shortName "UDI"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Mexican_Unidad_de_Inversion> .
+
+<http://telegraphis.net/data/currencies/MYR#MYR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "458" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MYR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MY#MY> ;
+    money:isoAlpha "MYR" ;
+    money:isoNumeric "458" ;
+    money:minorExponent "2" ;
+    money:minorName "sen"@en ;
+    money:name "Malaysian ringgit"@en ;
+    money:shortName "ringgit"@en ;
+    money:symbol "RM" ;
+    owl:sameAs <http://dbpedia.org/resource/Malaysian_ringgit> .
+
+<http://telegraphis.net/data/currencies/MZN#MZN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "943" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "MZN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/MZ#MZ> ;
+    money:isoAlpha "MZN" ;
+    money:isoNumeric "943" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Mozambican metical"@en ;
+    money:shortName "metical"@en ;
+    money:symbol "MTn" ;
+    owl:sameAs <http://dbpedia.org/resource/Mozambican_metical> .
+
+<http://telegraphis.net/data/currencies/NAD#NAD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "516" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NAD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NA#NA> ;
+    money:isoAlpha "NAD" ;
+    money:isoNumeric "516" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Namibian dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "N$" ;
+    owl:sameAs <http://dbpedia.org/resource/Namibian_dollar> .
+
+<http://telegraphis.net/data/currencies/NGN#NGN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NGN" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "566" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NG#NG> ;
+    money:isoAlpha "NGN" ;
+    money:isoNumeric "566" ;
+    money:minorExponent "2" ;
+    money:minorName "kobo"@en ;
+    money:name "Nigerian naira"@en ;
+    money:shortName "naira"@en ;
+    money:symbol "₦" ;
+    owl:sameAs <http://dbpedia.org/resource/Nigerian_naira> .
+
+<http://telegraphis.net/data/currencies/NIO#NIO> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "558" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NIO" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NI#NI> ;
+    money:isoAlpha "NIO" ;
+    money:isoNumeric "558" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Nicaraguan córdoba"@en ;
+    money:shortName "cordoba oro"@en ;
+    money:symbol "C$" ;
+    owl:sameAs <http://dbpedia.org/resource/Nicaraguan_c%C3%B3rdoba> .
+
+<http://telegraphis.net/data/currencies/NOK#NOK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "578" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NOK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NO#NO> ;
+    money:isoAlpha "NOK" ;
+    money:isoNumeric "578" ;
+    money:minorExponent "2" ;
+    money:minorName "øre"@en ;
+    money:name "Norwegian krone"@en ;
+    money:shortName "krone"@en ;
+    money:symbol "kr" ;
+    owl:sameAs <http://dbpedia.org/resource/Norwegian_krone> .
+
+<http://telegraphis.net/data/currencies/NPR#NPR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NPR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "524" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NP#NP> ;
+    money:isoAlpha "NPR" ;
+    money:isoNumeric "524" ;
+    money:minorExponent "2" ;
+    money:minorName "paisa"@en ;
+    money:name "Nepalese rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "₨" ;
+    owl:sameAs <http://dbpedia.org/resource/Nepalese_rupee> .
+
+<http://telegraphis.net/data/currencies/NZD#NZD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "554" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "NZD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CK#CK>,
+        <http://telegraphis.net/data/countries/NU#NU>,
+        <http://telegraphis.net/data/countries/NZ#NZ>,
+        <http://telegraphis.net/data/countries/PN#PN>,
+        <http://telegraphis.net/data/countries/TK#TK> ;
+    money:isoAlpha "NZD" ;
+    money:isoNumeric "554" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "c" ;
+    money:name "New Zealand dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/New_Zealand_dollar> .
+
+<http://telegraphis.net/data/currencies/OMR#OMR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "512" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "OMR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/OM#OM> ;
+    money:isoAlpha "OMR" ;
+    money:isoNumeric "512" ;
+    money:minorExponent "3" ;
+    money:minorName "baisa"@en ;
+    money:name "Omani rial"@en ;
+    money:shortName "rial"@en ;
+    money:symbol "ر.ع." ;
+    owl:sameAs <http://dbpedia.org/resource/Omani_rial> .
+
+<http://telegraphis.net/data/currencies/PAB#PAB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PAB" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "590" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PA#PA> ;
+    money:isoAlpha "PAB" ;
+    money:isoNumeric "590" ;
+    money:minorExponent "2" ;
+    money:minorName "centésimo"@en ;
+    money:name "Panamanian balboa"@en ;
+    money:shortName "balboa"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Panamanian_balboa> .
+
+<http://telegraphis.net/data/currencies/PEN#PEN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "604" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PEN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PE#PE> ;
+    money:isoAlpha "PEN" ;
+    money:isoNumeric "604" ;
+    money:minorExponent "2" ;
+    money:minorName "céntimo"@en ;
+    money:name "Peruvian nuevo sol"@en ;
+    money:shortName "nuevo sol"@en ;
+    money:symbol "S/." ;
+    owl:sameAs <http://dbpedia.org/resource/Peruvian_nuevo_sol> .
+
+<http://telegraphis.net/data/currencies/PGK#PGK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PGK" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "598" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PG#PG> ;
+    money:isoAlpha "PGK" ;
+    money:isoNumeric "598" ;
+    money:minorExponent "2" ;
+    money:minorName "toea"@en ;
+    money:name "Papua New Guinean kina"@en ;
+    money:shortName "kina"@en ;
+    money:symbol "K" ;
+    owl:sameAs <http://dbpedia.org/resource/Papua_New_Guinean_kina> .
+
+<http://telegraphis.net/data/currencies/PHP#PHP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PHP" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "608" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PH#PH> ;
+    money:isoAlpha "PHP" ;
+    money:isoNumeric "608" ;
+    money:minorExponent "2" ;
+    money:minorName "centavo"@en ;
+    money:name "Philippine peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "₱" ;
+    owl:sameAs <http://dbpedia.org/resource/Philippine_peso> .
+
+<http://telegraphis.net/data/currencies/PKR#PKR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PKR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "586" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PK#PK> ;
+    money:isoAlpha "PKR" ;
+    money:isoNumeric "586" ;
+    money:minorExponent "2" ;
+    money:minorName "paisa"@en ;
+    money:name "Pakistani rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "Rs" ;
+    owl:sameAs <http://dbpedia.org/resource/Pakistani_rupee> .
+
+<http://telegraphis.net/data/currencies/PLN#PLN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "985" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PLN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PL#PL> ;
+    money:isoAlpha "PLN" ;
+    money:isoNumeric "985" ;
+    money:minorExponent "2" ;
+    money:minorName "grosz"@en ;
+    money:minorSymbol "gr" ;
+    money:name "Polish zloty"@en ;
+    money:shortName "zloty"@en ;
+    money:symbol "zł" ;
+    owl:sameAs <http://dbpedia.org/resource/Polish_z%C5%82oty> .
+
+<http://telegraphis.net/data/currencies/PYG#PYG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "600" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "PYG" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/PY#PY> ;
+    money:isoAlpha "PYG" ;
+    money:isoNumeric "600" ;
+    money:minorExponent "0" ;
+    money:minorName "céntimo"@en ;
+    money:name "Paraguayan guaraní"@en ;
+    money:shortName "guaraní"@en ;
+    money:symbol "₲" ;
+    owl:sameAs <http://dbpedia.org/resource/Paraguayan_guaran%C3%AD> .
+
+<http://telegraphis.net/data/currencies/QAR#QAR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "QAR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "634" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/QA#QA> ;
+    money:isoAlpha "QAR" ;
+    money:isoNumeric "634" ;
+    money:minorExponent "2" ;
+    money:minorName "dirham"@en ;
+    money:name "Qatari rial"@en ;
+    money:shortName "rial"@en ;
+    money:symbol "QR" ;
+    owl:sameAs <http://dbpedia.org/resource/Qatari_riyal> .
+
+<http://telegraphis.net/data/currencies/RON#RON> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "946" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "RON" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/RO#RO> ;
+    money:isoAlpha "RON" ;
+    money:isoNumeric "946" ;
+    money:minorExponent "2" ;
+    money:minorName "bani"@en ;
+    money:name "Romanian new leu"@en ;
+    money:shortName "new leu"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Romanian_leu> .
+
+<http://telegraphis.net/data/currencies/RSD#RSD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "941" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "RSD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/RS#RS> ;
+    money:isoAlpha "RSD" ;
+    money:isoNumeric "941" ;
+    money:minorExponent "2" ;
+    money:minorName "para"@en ;
+    money:name "Serbian dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "din." ;
+    owl:sameAs <http://dbpedia.org/resource/Serbian_dinar> .
+
+<http://telegraphis.net/data/currencies/RUB#RUB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "RUB" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "643" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/RU#RU> ;
+    money:isoAlpha "RUB" ;
+    money:isoNumeric "643" ;
+    money:minorExponent "2" ;
+    money:minorName "kopek"@en ;
+    money:minorSymbol "к." ;
+    money:name "Russian ruble"@en ;
+    money:shortName "ruble"@en ;
+    money:symbol "руб." ;
+    owl:sameAs <http://dbpedia.org/resource/Russian_ruble> .
+
+<http://telegraphis.net/data/currencies/RWF#RWF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "RWF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "646" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/RW#RW> ;
+    money:isoAlpha "RWF" ;
+    money:isoNumeric "646" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "Rwandan franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "RF" ;
+    owl:sameAs <http://dbpedia.org/resource/Rwandan_franc> .
+
+<http://telegraphis.net/data/currencies/SAR#SAR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "682" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SAR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SA#SA> ;
+    money:isoAlpha "SAR" ;
+    money:isoNumeric "682" ;
+    money:minorExponent "2" ;
+    money:minorName "halala"@en ;
+    money:name "Saudi riyal"@en ;
+    money:shortName "riyal"@en ;
+    money:symbol "ر.س" ;
+    owl:sameAs <http://dbpedia.org/resource/Saudi_riyal> .
+
+<http://telegraphis.net/data/currencies/SBD#SBD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SBD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "090" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SB#SB> ;
+    money:isoAlpha "SBD" ;
+    money:isoNumeric "090" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Solomon Islands dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "SI$" ;
+    owl:sameAs <http://dbpedia.org/resource/Solomon_Islands_dollar> .
+
+<http://telegraphis.net/data/currencies/SCR#SCR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SCR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "690" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SC#SC> ;
+    money:isoAlpha "SCR" ;
+    money:isoNumeric "690" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Seychelles rupee"@en ;
+    money:shortName "rupee"@en ;
+    money:symbol "SR" ;
+    owl:sameAs <http://dbpedia.org/resource/Seychellois_rupee> .
+
+<http://telegraphis.net/data/currencies/SDG#SDG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SDG" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "938" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SD#SD> ;
+    money:isoAlpha "SDG" ;
+    money:isoNumeric "938" ;
+    money:minorExponent "2" ;
+    money:minorName "piastre"@en ;
+    money:name "Sudanese pound"@en ;
+    money:shortName "pound"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Sudanese_pound> .
+
+<http://telegraphis.net/data/currencies/SEK#SEK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "752" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SEK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SE#SE> ;
+    money:isoAlpha "SEK" ;
+    money:isoNumeric "752" ;
+    money:minorExponent "2" ;
+    money:minorName "öre"@en ;
+    money:name "Swedish krona"@en ;
+    money:shortName "krona"@en ;
+    money:symbol "kr" ;
+    owl:sameAs <http://dbpedia.org/resource/Swedish_krona> .
+
+<http://telegraphis.net/data/currencies/SGD#SGD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SGD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "702" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BN#BN>,
+        <http://telegraphis.net/data/countries/SG#SG> ;
+    money:isoAlpha "SGD" ;
+    money:isoNumeric "702" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Singapore dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "S$" ;
+    owl:sameAs <http://dbpedia.org/resource/Singapore_dollar> .
+
+<http://telegraphis.net/data/currencies/SHP#SHP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "654" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SHP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SH#SH> ;
+    money:isoAlpha "SHP" ;
+    money:isoNumeric "654" ;
+    money:minorExponent "2" ;
+    money:minorName "penny"@en ;
+    money:name "Saint Helena pound"@en ;
+    money:shortName "pound"@en ;
+    money:symbol "£" ;
+    owl:sameAs <http://dbpedia.org/resource/Saint_Helena_pound> .
+
+<http://telegraphis.net/data/currencies/SLL#SLL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SLL" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "694" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SL#SL> ;
+    money:isoAlpha "SLL" ;
+    money:isoNumeric "694" ;
+    money:minorExponent "0" ;
+    money:minorName "cent"@en ;
+    money:name "Sierra Leonean leone"@en ;
+    money:shortName "leone"@en ;
+    money:symbol "Le" ;
+    owl:sameAs <http://dbpedia.org/resource/Sierra_Leonean_leone> .
+
+<http://telegraphis.net/data/currencies/SOS#SOS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "706" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SOS" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SO#SO> ;
+    money:isoAlpha "SOS" ;
+    money:isoNumeric "706" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Somali shilling"@en ;
+    money:shortName "shilling"@en ;
+    money:symbol "So. Sh." ;
+    owl:sameAs <http://dbpedia.org/resource/Somali_shilling> .
+
+<http://telegraphis.net/data/currencies/SRD#SRD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "968" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SRD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SR#SR> ;
+    money:isoAlpha "SRD" ;
+    money:isoNumeric "968" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Surinamese dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Surinamese_dollar> .
+
+<http://telegraphis.net/data/currencies/STD#STD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "678" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "STD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ST#ST> ;
+    money:isoAlpha "STD" ;
+    money:isoNumeric "678" ;
+    money:minorExponent "0" ;
+    money:minorName "cêntimo"@en ;
+    money:name "São Tomé and Príncipe dobra"@en ;
+    money:shortName "dobra"@en ;
+    money:symbol "Db" ;
+    owl:sameAs <http://dbpedia.org/resource/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra> .
+
+<http://telegraphis.net/data/currencies/SYP#SYP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SYP" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "760" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SY#SY> ;
+    money:isoAlpha "SYP" ;
+    money:isoNumeric "760" ;
+    money:minorExponent "2" ;
+    money:minorName "piastre"@en ;
+    money:name "Syrian pound"@en ;
+    money:shortName "pound"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Syrian_pound> .
+
+<http://telegraphis.net/data/currencies/SZL#SZL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "SZL" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "748" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/SZ#SZ> ;
+    money:isoAlpha "SZL" ;
+    money:isoNumeric "748" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Swazi lilangeni"@en ;
+    money:shortName "lilangeni"@en ;
+    money:symbol "L" ;
+    owl:sameAs <http://dbpedia.org/resource/Swazi_lilangeni> .
+
+<http://telegraphis.net/data/currencies/THB#THB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "THB" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "764" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TH#TH> ;
+    money:isoAlpha "THB" ;
+    money:isoNumeric "764" ;
+    money:minorExponent "2" ;
+    money:minorName "satang"@en ;
+    money:name "Thai baht"@en ;
+    money:shortName "baht"@en ;
+    money:symbol "฿" ;
+    owl:sameAs <http://dbpedia.org/resource/Thai_baht> .
+
+<http://telegraphis.net/data/currencies/TJS#TJS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TJS" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "972" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TJ#TJ> ;
+    money:isoAlpha "TJS" ;
+    money:isoNumeric "972" ;
+    money:minorExponent "2" ;
+    money:minorName "diram"@en ;
+    money:name "Tajikstani somoni"@en ;
+    money:shortName "somoni"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Tajikistani_somoni> .
+
+<http://telegraphis.net/data/currencies/TMT#TMT> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TMT" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "934" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TM#TM> ;
+    money:isoAlpha "TMT" ;
+    money:isoNumeric "934" ;
+    money:minorExponent "2" ;
+    money:minorName "tennesi"@en ;
+    money:name "Turkmenistani manat"@en ;
+    money:shortName "manat"@en ;
+    money:symbol "m" ;
+    owl:sameAs <http://dbpedia.org/resource/Turkmenistani_manat> .
+
+<http://telegraphis.net/data/currencies/TND#TND> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TND" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "788" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TN#TN> ;
+    money:isoAlpha "TND" ;
+    money:isoNumeric "788" ;
+    money:minorExponent "3" ;
+    money:minorName "milim"@en ;
+    money:name "Tunisian dinar"@en ;
+    money:shortName "dinar"@en ;
+    money:symbol "DT" ;
+    owl:sameAs <http://dbpedia.org/resource/Tunisian_dinar> .
+
+<http://telegraphis.net/data/currencies/TOP#TOP> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "776" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TOP" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TO#TO> ;
+    money:isoAlpha "TOP" ;
+    money:isoNumeric "776" ;
+    money:minorExponent "2" ;
+    money:minorName "seniti"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Tongan pa'anga"@en ;
+    money:shortName "pa'anga"@en ;
+    money:symbol "T$" ;
+    owl:sameAs <http://dbpedia.org/resource/Tongan_pa%CA%BBanga> .
+
+<http://telegraphis.net/data/currencies/TRY#TRY> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TRY" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "949" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TR#TR> ;
+    money:isoAlpha "TRY" ;
+    money:isoNumeric "949" ;
+    money:minorExponent "2" ;
+    money:minorName "kuruş"@en ;
+    money:name "Turkish lira"@en ;
+    money:shortName "lira"@en ;
+    money:symbol "TL" ;
+    owl:sameAs <http://dbpedia.org/resource/Turkish_new_lira> .
+
+<http://telegraphis.net/data/currencies/TTD#TTD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "780" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TTD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TT#TT> ;
+    money:isoAlpha "TTD" ;
+    money:isoNumeric "780" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "Trinidad and Tobago dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "TT$" ;
+    owl:sameAs <http://dbpedia.org/resource/Trinidad_and_Tobago_dollar> .
+
+<http://telegraphis.net/data/currencies/TWD#TWD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "901" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TWD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TW#TW> ;
+    money:isoAlpha "TWD" ;
+    money:isoNumeric "901" ;
+    money:minorExponent "1" ;
+    money:minorName "cent"@en ;
+    money:name "New Taiwan dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "NT$" ;
+    owl:sameAs <http://dbpedia.org/resource/New_Taiwan_dollar> .
+
+<http://telegraphis.net/data/currencies/TZS#TZS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "834" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "TZS" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/TZ#TZ> ;
+    money:isoAlpha "TZS" ;
+    money:isoNumeric "834" ;
+    money:minorExponent "2" ;
+    money:minorName "senti"@en ;
+    money:name "Tanzanian shilling"@en ;
+    money:shortName "shilling"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Tanzanian_shilling> .
+
+<http://telegraphis.net/data/currencies/UAH#UAH> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "UAH" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "980" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/UA#UA> ;
+    money:isoAlpha "UAH" ;
+    money:isoNumeric "980" ;
+    money:minorExponent "2" ;
+    money:minorName "kopiyka"@en ;
+    money:name "Ukrainian hryvnia"@en ;
+    money:shortName "hryvnia"@en ;
+    money:symbol "₴" ;
+    owl:sameAs <http://dbpedia.org/resource/Ukrainian_hryvnia> .
+
+<http://telegraphis.net/data/currencies/UGX#UGX> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "800" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "UGX" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/UG#UG> ;
+    money:isoAlpha "UGX" ;
+    money:isoNumeric "800" ;
+    money:minorExponent "0" ;
+    money:minorName "cent"@en ;
+    money:name "Ugandan shilling"@en ;
+    money:shortName "shilling"@en ;
+    money:symbol "USh" ;
+    owl:sameAs <http://dbpedia.org/resource/Ugandan_shilling> .
+
+<http://telegraphis.net/data/currencies/USD#USD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "840" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "USD" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AS#AS>,
+        <http://telegraphis.net/data/countries/BM#BM>,
+        <http://telegraphis.net/data/countries/EC#EC>,
+        <http://telegraphis.net/data/countries/FM#FM>,
+        <http://telegraphis.net/data/countries/GU#GU>,
+        <http://telegraphis.net/data/countries/HT#HT>,
+        <http://telegraphis.net/data/countries/IO#IO>,
+        <http://telegraphis.net/data/countries/MH#MH>,
+        <http://telegraphis.net/data/countries/MP#MP>,
+        <http://telegraphis.net/data/countries/PA#PA>,
+        <http://telegraphis.net/data/countries/PR#PR>,
+        <http://telegraphis.net/data/countries/PW#PW>,
+        <http://telegraphis.net/data/countries/SV#SV>,
+        <http://telegraphis.net/data/countries/TC#TC>,
+        <http://telegraphis.net/data/countries/TL#TL>,
+        <http://telegraphis.net/data/countries/US#US>,
+        <http://telegraphis.net/data/countries/VI#VI> ;
+    money:isoAlpha "USD" ;
+    money:isoNumeric "840" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "United States dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/United_States_dollar> .
+
+<http://telegraphis.net/data/currencies/USN#USN> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "997" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "USN" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/US#US> ;
+    money:isoAlpha "USN" ;
+    money:isoNumeric "997" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "United States dollar (next day)"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "$" .
+
+<http://telegraphis.net/data/currencies/USS#USS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "USS" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "998" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/US#US> ;
+    money:isoAlpha "USS" ;
+    money:isoNumeric "998" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "¢" ;
+    money:name "United States dollar (same day)"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "$" .
+
+<http://telegraphis.net/data/currencies/UYU#UYU> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "858" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "UYU" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/UY#UY> ;
+    money:isoAlpha "UYU" ;
+    money:isoNumeric "858" ;
+    money:minorExponent "2" ;
+    money:minorName "centésimo"@en ;
+    money:name "Uruguayan peso"@en ;
+    money:shortName "peso"@en ;
+    money:symbol "$" ;
+    owl:sameAs <http://dbpedia.org/resource/Uruguayan_peso> .
+
+<http://telegraphis.net/data/currencies/UZS#UZS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "860" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "UZS" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/UZ#UZ> ;
+    money:isoAlpha "UZS" ;
+    money:isoNumeric "860" ;
+    money:minorExponent "2" ;
+    money:minorName "tiyin"@en ;
+    money:name "Uzbekistan som"@en ;
+    money:shortName "som"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Uzbekistani_som> .
+
+<http://telegraphis.net/data/currencies/VEF#VEF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "937" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "VEF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/VE#VE> ;
+    money:isoAlpha "VEF" ;
+    money:isoNumeric "937" ;
+    money:minorExponent "2" ;
+    money:minorName "céntimo"@en ;
+    money:name "Venezuelan bolívar fuerte"@en ;
+    money:shortName "bolívar"@en ;
+    money:symbol "Bs. F" ;
+    owl:sameAs <http://dbpedia.org/resource/Venezuelan_bol%C3%ADvar> .
+
+<http://telegraphis.net/data/currencies/VND#VND> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "704" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "VND" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/VN#VN> ;
+    money:isoAlpha "VND" ;
+    money:isoNumeric "704" ;
+    money:minorExponent "0" ;
+    money:minorName "xu"@en ;
+    money:name "Vietnamese đồng"@en ;
+    money:shortName "đồng"@en ;
+    money:symbol "₫" ;
+    owl:sameAs <http://dbpedia.org/resource/Vietnamese_%C4%91%E1%BB%93ng> .
+
+<http://telegraphis.net/data/currencies/VUV#VUV> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "548" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "VUV" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/VU#VU> ;
+    money:isoAlpha "VUV" ;
+    money:isoNumeric "548" ;
+    money:minorExponent "0" ;
+    money:name "Vanuatu vatu"@en ;
+    money:shortName "vatu"@en ;
+    money:symbol "Vt" ;
+    owl:sameAs <http://dbpedia.org/resource/Vanuatu_vatu> .
+
+<http://telegraphis.net/data/currencies/WST#WST> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "882" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "WST" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/WS#WS> ;
+    money:isoAlpha "WST" ;
+    money:isoNumeric "882" ;
+    money:minorExponent "2" ;
+    money:minorName "sene"@en ;
+    money:name "Samoan tala"@en ;
+    money:shortName "tala"@en ;
+    money:symbol "WS$" ;
+    owl:sameAs <http://dbpedia.org/resource/Samoan_tala> .
+
+<http://telegraphis.net/data/currencies/XAF#XAF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "950" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XAF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/CF#CF>,
+        <http://telegraphis.net/data/countries/CG#CG>,
+        <http://telegraphis.net/data/countries/CM#CM>,
+        <http://telegraphis.net/data/countries/GA#GA>,
+        <http://telegraphis.net/data/countries/GQ#GQ>,
+        <http://telegraphis.net/data/countries/TD#TD> ;
+    money:isoAlpha "XAF" ;
+    money:isoNumeric "950" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:minorSymbol "c" ;
+    money:name "Central African CFA franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "FCFA" ;
+    owl:sameAs <http://dbpedia.org/resource/Central_African_CFA_franc> .
+
+<http://telegraphis.net/data/currencies/XAG#XAG> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "961" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XAG" ] ;
+    money:isoAlpha "XAG" ;
+    money:isoNumeric "961" ;
+    money:name "Silver"@en ;
+    money:shortName "Ag"@en ;
+    money:symbol "oz." ;
+    owl:sameAs <http://dbpedia.org/resource/Silver> .
+
+<http://telegraphis.net/data/currencies/XAU#XAU> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "959" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XAU" ] ;
+    money:isoAlpha "XAU" ;
+    money:isoNumeric "959" ;
+    money:name "Gold"@en ;
+    money:shortName "Au"@en ;
+    money:symbol "oz." ;
+    owl:sameAs <http://dbpedia.org/resource/Gold> .
+
+<http://telegraphis.net/data/currencies/XBA#XBA> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "955" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XBA" ] ;
+    money:isoAlpha "XBA" ;
+    money:isoNumeric "955" ;
+    money:name "European Composite Unit"@en ;
+    money:shortName "ECU"@en ;
+    money:symbol "ECU" ;
+    owl:sameAs <http://dbpedia.org/resource/European_Composite_Unit> .
+
+<http://telegraphis.net/data/currencies/XBB#XBB> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "956" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XBB" ] ;
+    money:isoAlpha "XBB" ;
+    money:isoNumeric "956" ;
+    money:name "European Monetary Unit"@en ;
+    money:shortName "EMU"@en ;
+    money:symbol "EMU" ;
+    owl:sameAs <http://dbpedia.org/resource/European_Monetary_Unit> .
+
+<http://telegraphis.net/data/currencies/XBC#XBC> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "957" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XBC" ] ;
+    money:isoAlpha "XBC" ;
+    money:isoNumeric "957" ;
+    money:name "European Unit of Account 9"@en ;
+    money:shortName "E.U.A.-9"@en ;
+    owl:sameAs <http://dbpedia.org/resource/European_Unit_of_Account_9> .
+
+<http://telegraphis.net/data/currencies/XBD#XBD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "958" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XBD" ] ;
+    money:isoAlpha "XBD" ;
+    money:isoNumeric "958" ;
+    money:name "European Unit of Account 17"@en ;
+    money:shortName "E.U.A.-17"@en ;
+    owl:sameAs <http://dbpedia.org/resource/European_Unit_of_Account_17> .
+
+<http://telegraphis.net/data/currencies/XCD#XCD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XCD" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "951" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/AG#AG>,
+        <http://telegraphis.net/data/countries/AI#AI>,
+        <http://telegraphis.net/data/countries/DM#DM>,
+        <http://telegraphis.net/data/countries/GD#GD>,
+        <http://telegraphis.net/data/countries/KN#KN>,
+        <http://telegraphis.net/data/countries/LC#LC>,
+        <http://telegraphis.net/data/countries/MS#MS>,
+        <http://telegraphis.net/data/countries/VC#VC> ;
+    money:isoAlpha "XCD" ;
+    money:isoNumeric "951" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "East Caribbean dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "EC$" ;
+    owl:sameAs <http://dbpedia.org/resource/East_Caribbean_dollar> .
+
+<http://telegraphis.net/data/currencies/XDR#XDR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XDR" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "960" ] ;
+    money:isoAlpha "XDR" ;
+    money:isoNumeric "960" ;
+    money:name "Special Drawing Rights"@en ;
+    money:shortName "SDR"@en ;
+    money:symbol "SDR" ;
+    owl:sameAs <http://dbpedia.org/resource/Special_Drawing_Rights> .
+
+<http://telegraphis.net/data/currencies/XFU#XFU> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XFU" ] ;
+    money:isoAlpha "XFU" ;
+    money:name "UIC franc"@en ;
+    money:shortName "franc"@en ;
+    owl:sameAs <http://dbpedia.org/resource/UIC_franc> .
+
+<http://telegraphis.net/data/currencies/XOF#XOF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "952" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XOF" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/BF#BF>,
+        <http://telegraphis.net/data/countries/BJ#BJ>,
+        <http://telegraphis.net/data/countries/CI#CI>,
+        <http://telegraphis.net/data/countries/GW#GW>,
+        <http://telegraphis.net/data/countries/ML#ML>,
+        <http://telegraphis.net/data/countries/NE#NE>,
+        <http://telegraphis.net/data/countries/SN#SN>,
+        <http://telegraphis.net/data/countries/TG#TG> ;
+    money:isoAlpha "XOF" ;
+    money:isoNumeric "952" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:minorSymbol "c" ;
+    money:name "CFA Franc BCEAO"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "CFA" ;
+    owl:sameAs <http://dbpedia.org/resource/West_African_CFA_franc> .
+
+<http://telegraphis.net/data/currencies/XPD#XPD> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "964" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XPD" ] ;
+    money:isoAlpha "XPD" ;
+    money:isoNumeric "964" ;
+    money:name "Palladium"@en ;
+    money:shortName "Pd"@en ;
+    money:symbol "oz." ;
+    owl:sameAs <http://dbpedia.org/resource/Palladium> .
+
+<http://telegraphis.net/data/currencies/XPF#XPF> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XPF" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "953" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/NC#NC>,
+        <http://telegraphis.net/data/countries/PF#PF>,
+        <http://telegraphis.net/data/countries/WF#WF> ;
+    money:isoAlpha "XPF" ;
+    money:isoNumeric "953" ;
+    money:minorExponent "0" ;
+    money:minorName "centime"@en ;
+    money:name "CFP franc"@en ;
+    money:shortName "franc"@en ;
+    money:symbol "F" ;
+    owl:sameAs <http://dbpedia.org/resource/CFP_franc> .
+
+<http://telegraphis.net/data/currencies/XPT#XPT> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "962" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XPT" ] ;
+    money:isoAlpha "XPT" ;
+    money:isoNumeric "962" ;
+    money:name "Platinum"@en ;
+    money:shortName "Pt"@en ;
+    money:symbol "oz." ;
+    owl:sameAs <http://dbpedia.org/resource/Platinum> .
+
+<http://telegraphis.net/data/currencies/XTS#XTS> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "963" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XTS" ] ;
+    money:isoAlpha "XTS" ;
+    money:isoNumeric "963" ;
+    money:name "Code reserved for testing purposes"@en ;
+    money:shortName "Reserved"@en .
+
+<http://telegraphis.net/data/currencies/XXX#XXX> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "999" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "XXX" ] ;
+    money:isoAlpha "XXX" ;
+    money:isoNumeric "999" ;
+    money:name "No currency"@en ;
+    money:shortName "None"@en .
+
+<http://telegraphis.net/data/currencies/YER#YER> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "886" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "YER" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/YE#YE> ;
+    money:isoAlpha "YER" ;
+    money:isoNumeric "886" ;
+    money:minorExponent "0" ;
+    money:minorName "fils"@en ;
+    money:name "Yemeni rial"@en ;
+    money:shortName "rial"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Yemeni_rial> .
+
+<http://telegraphis.net/data/currencies/ZAR#ZAR> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "710" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ZAR" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ZA#ZA> ;
+    money:isoAlpha "ZAR" ;
+    money:isoNumeric "710" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:minorSymbol "c" ;
+    money:name "South African rand"@en ;
+    money:shortName "rand"@en ;
+    money:symbol "R" ;
+    owl:sameAs <http://dbpedia.org/resource/South_African_rand> .
+
+<http://telegraphis.net/data/currencies/ZMK#ZMK> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "894" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ZMK" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ZM#ZM> ;
+    money:isoAlpha "ZMK" ;
+    money:isoNumeric "894" ;
+    money:minorExponent "0" ;
+    money:minorName "ngwee"@en ;
+    money:name "Zambian kwacha"@en ;
+    money:shortName "kwacha"@en ;
+    money:symbol "ZK" ;
+    owl:sameAs <http://dbpedia.org/resource/Zambian_kwacha> .
+
+<http://telegraphis.net/data/currencies/ZWL#ZWL> a money:Currency ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217num> ;
+            rdf:value "932" ],
+        [ a code:Code ;
+            code:inCodeScheme <http://telegraphis.net/data/currencies/codeSchemes#iso4217al> ;
+            rdf:value "ZWL" ] ;
+    money:currencyOf <http://telegraphis.net/data/countries/ZW#ZW> ;
+    money:isoAlpha "ZWL" ;
+    money:isoNumeric "932" ;
+    money:minorExponent "2" ;
+    money:minorName "cent"@en ;
+    money:name "Zimbabwe dollar"@en ;
+    money:shortName "dollar"@en ;
+    money:symbol "Z$" ;
+    owl:sameAs <http://dbpedia.org/resource/Zimbabwean_dollar> .
+

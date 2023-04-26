@@ -1,0 +1,114 @@
+@prefix code: <http://www.telegraphis.net/ontology/measurement/code#> .
+@prefix geographis: <http://www.telegraphis.net/ontology/geography/geography#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix measurement: <http://www.telegraphis.net/ontology/measurement/measurement#> .
+@prefix metric: <http://www.telegraphis.net/ontology/measurement/metric#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix quantity: <http://www.telegraphis.net/ontology/measurement/quantity#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.telegraphis.net/data/continents/AF#AF> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "Africa"@en ;
+    gn:population "922011000" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "30221532.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "AF" ] ;
+    owl:sameAs <http://dbpedia.org/resource/Africa>,
+        <http://sws.geonames.org/6255146/> .
+
+<http://www.telegraphis.net/data/continents/AN#AN> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "Antarctica"@en ;
+    gn:population "0" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "14000000.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "AN" ] ;
+    owl:sameAs <http://dbpedia.org/resource/Antarctica>,
+        <http://sws.geonames.org/6255152/> .
+
+<http://www.telegraphis.net/data/continents/AS#AS> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "Asia"@en ;
+    gn:population "3879000000" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "44579000.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "AS" ] ;
+    owl:sameAs <http://dbpedia.org/resource/Asia>,
+        <http://sws.geonames.org/6255147/> .
+
+<http://www.telegraphis.net/data/continents/EU#EU> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "Europe"@en ;
+    gn:population "731000000" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "10180000.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "EU" ] ;
+    owl:sameAs <http://dbpedia.org/resource/Europe>,
+        <http://sws.geonames.org/6255148/> .
+
+<http://www.telegraphis.net/data/continents/NA#NA> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "North America"@en ;
+    gn:population "528720588" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "24709000.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "NA" ] ;
+    owl:sameAs <http://dbpedia.org/resource/North_America>,
+        <http://sws.geonames.org/6255149/> .
+
+<http://www.telegraphis.net/data/continents/OC#OC> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "Oceania"@en ;
+    gn:population "32000000" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "9008458.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "OC" ] ;
+    owl:sameAs <http://dbpedia.org/resource/Oceania>,
+        <http://sws.geonames.org/6255151/> .
+
+<http://www.telegraphis.net/data/continents/SA#SA> a geographis:Continent ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:name "South America"@en ;
+    gn:population "382000000" ;
+    geographis:landArea [ a measurement:Measurement ;
+            measurement:quantityMeasured quantity:Area ;
+            measurement:unit metric:SquareKilometre ;
+            rdf:value "17840000.0" ] ;
+    code:hasCode [ a code:Code ;
+            code:inCodeScheme <http://www.telegraphis.net/data/continents/codeSchemes#geonames> ;
+            rdf:value "SA" ] ;
+    owl:sameAs <http://dbpedia.org/resource/South_America>,
+        <http://sws.geonames.org/6255150/> .
+
