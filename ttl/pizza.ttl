@@ -1,0 +1,52 @@
+@prefix ex: <http://example.org/pizza#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:Margherita rdf:type ex:Pizza ;
+    ex:hasIngredient ex:TomatoSauce ;
+    ex:hasIngredient ex:MozzarellaCheese ;
+    ex:hasIngredient ex:Basil ;
+    ex:isVegan false ;
+    ex:isGlutenFree false .
+
+ex:Pepperoni rdf:type ex:Pizza ;
+    ex:hasIngredient ex:TomatoSauce ;
+    ex:hasIngredient ex:MozzarellaCheese ;
+    ex:hasIngredient ex:Pepperoni ;
+    ex:isVegan false ;
+    ex:hasSpicyIngredient true ;
+    ex:isGlutenFree false .
+
+ex:Veggie rdf:type ex:Pizza ;
+    ex:hasIngredient ex:TomatoSauce ;
+    ex:hasIngredient ex:MozzarellaCheese ;
+    ex:hasIngredient ex:BellPepper ;
+    ex:hasIngredient ex:Olives ;
+    ex:hasIngredient ex:Onions ;
+    ex:isVegan false ;
+    ex:isGlutenFree false .
+
+ex:VeganDelight rdf:type ex:Pizza ;
+    ex:hasIngredient ex:TomatoSauce ;
+    ex:hasIngredient ex:VeganCheese ;
+    ex:hasIngredient ex:Mushrooms ;
+    ex:hasIngredient ex:Spinach ;
+    ex:isVegan true ;
+    ex:isGlutenFree true .
+
+ex:TomatoSauce rdf:type ex:Ingredient .
+ex:MozzarellaCheese rdf:type ex:Ingredient .
+ex:Basil rdf:type ex:Ingredient .
+ex:Pepperoni rdf:type ex:Ingredient .
+ex:BellPepper rdf:type ex:Ingredient .
+ex:Olives rdf:type ex:Ingredient .
+ex:Onions rdf:type ex:Ingredient .
+ex:VeganCheese rdf:type ex:Ingredient .
+ex:Mushrooms rdf:type ex:Ingredient .
+ex:Spinach rdf:type ex:Ingredient .
+
+ex:hasIngredient rdf:type owl:ObjectProperty .
+ex:isVegan rdf:type rdf:Property .
+ex:hasSpicyIngredient rdf:type rdf:Property .
+ex:isGlutenFree rdf:type rdf:Property .
